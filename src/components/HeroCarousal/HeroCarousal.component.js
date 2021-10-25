@@ -28,6 +28,7 @@ const HeroCarousal = () => {
   
         const settingsLg = {
             arrows: true,
+	    dots:false,
             autoplay: true,
             centerMode: true,
             centerPadding: "300px",
@@ -54,7 +55,6 @@ const HeroCarousal = () => {
         const settings = {
             arrows: true,
             autoplay: true,
-            dots: true,
             infinite: true,
             speed: 300,
             slidesToShow: 1,  
