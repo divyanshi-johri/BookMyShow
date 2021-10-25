@@ -55,6 +55,7 @@ const HeroCarousal = () => {
         const settings = {
             arrows: true,
             autoplay: true,
+	    dots:false,
             infinite: true,
             speed: 300,
             slidesToShow: 1,  
